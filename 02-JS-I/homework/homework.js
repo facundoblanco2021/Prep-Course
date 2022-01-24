@@ -7,7 +7,7 @@ const nuevaString = `holafacu`;
 const nuevoNum = 10;
 
 // Crea una variable booleana:
-const nuevoBool = 4>5;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -35,25 +35,29 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return suma
+  var suma1 = x + y;
+  return suma1
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  var resta1 = x - y;
+  return resta1
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  var multi = x * y;
+  return multi
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  var div = x / y;
+  return div
 }
 
 function sonIguales(x, y) {
@@ -61,12 +65,18 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  if (x=y){
+    return true;
+  }
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  var longi1 = str1;
+  
   
 }
 
