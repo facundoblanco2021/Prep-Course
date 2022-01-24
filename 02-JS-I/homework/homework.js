@@ -67,7 +67,7 @@ function sonIguales(x, y) {
   
   if (x=y){
     return true;
-  }
+  } else {
   return false;
 }
 
@@ -76,7 +76,15 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   var longi1 = str1;
-  
+  var longi2 = str2;
+    var longi11 = longi1.length;
+    var longi22 = longi2.length;
+if (longi11 = longi22) {
+  return true
+} else {
+  return false
+}
+
   
 }
 
